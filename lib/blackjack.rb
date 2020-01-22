@@ -42,6 +42,8 @@ def hit?(total)
   else 
     invalid_command
   end
+  
+  return new_total
 end
 
 def invalid_command
