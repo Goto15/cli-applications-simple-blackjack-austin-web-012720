@@ -30,8 +30,10 @@ end
 
 def hit?(total)
   new_total = total 
+  
   prompt_user
   input = get_user_input
+  puts "Your cards add up to #{total}"
   
   if get_user_input == 'h'
     deal_card
