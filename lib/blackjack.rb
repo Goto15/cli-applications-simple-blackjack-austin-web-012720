@@ -31,6 +31,8 @@ end
 def hit?(total)
   prompt_user
   get_user_input
+  
+  return total
 end
 
 def invalid_command
