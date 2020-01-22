@@ -31,7 +31,7 @@ end
 def hit?(total)
   new_total = total 
   
-  puts prompt_user
+  prompt_user
   input = get_user_input
   puts "Your cards add up to #{total}"
   
