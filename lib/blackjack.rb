@@ -11,7 +11,7 @@ def display_card_total(total)
 end
 
 def prompt_user
-  puts "Type 'h' to hit or 's' to stay"
+  return "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
@@ -31,7 +31,7 @@ end
 def hit?(total)
   new_total = total 
   
-  prompt_user
+  puts prompt_user
   input = get_user_input
   puts "Your cards add up to #{total}"
   
